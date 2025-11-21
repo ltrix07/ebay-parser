@@ -160,7 +160,6 @@ def parse_item(link: str) -> Item:
             print(f"✅ Parsed: {item.title!r}")
             return item
         except Exception as exc:
-            # In портфолио красиво показать аккуратный лог.
             print(f"[{attempt}/{attempts}] Parsing error for {link}: {exc}")
 
     print(f"⚠ Failed to parse {link} after {attempts} attempts")
