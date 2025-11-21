@@ -95,45 +95,6 @@ source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-`requirements.txt` includes:
-```text
-attrs==25.4.0
-beautifulsoup4==4.14.2
-bs4==0.0.2
-cachetools==6.2.2
-certifi==2025.11.12
-cffi==2.0.0
-charset-normalizer==3.4.4
-google-auth==2.41.1
-google-auth-oauthlib==1.2.3
-gspread==6.2.1
-h11==0.16.0
-idna==3.11
-lxml==6.0.2
-oauthlib==3.3.1
-outcome==1.3.0.post0
-pyasn1==0.6.1
-pyasn1_modules==0.4.2
-pycparser==2.23
-PySocks==1.7.1
-requests==2.32.5
-requests-oauthlib==2.0.0
-rsa==4.9.1
-selenium==4.38.0
-setuptools==80.9.0
-sniffio==1.3.1
-sortedcontainers==2.4.0
-soupsieve==2.8
-trio==0.32.0
-trio-websocket==0.12.2
-typing_extensions==4.15.0
-undetected-chromedriver==3.5.5
-urllib3==2.5.0
-websocket-client==1.9.0
-websockets==15.0.1
-wsproto==1.3.1
-```
-
 ---
 
 ## ▶️ Running the Script
